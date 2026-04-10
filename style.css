@@ -1,0 +1,48 @@
+/* Genel ayarlar */
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Başlık */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+/* Menü */
+nav {
+  text-align: center;
+  margin-bottom: 30px;
+}
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #007acc;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Yazı kutuları */
+article, .post-preview, section, li {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Alt bilgi */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 0.9em;
+  color: #666;
+}
